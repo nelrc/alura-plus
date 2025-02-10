@@ -15,7 +15,7 @@ Alura Plus é um projeto Streaming criado nas aulas da Alura de HTML e CSS. <br/
 <br>
 
 <p align="center">
-  <img alt="projeto Habits" src="![Alura-plus-capa](https://github.com/user-attachments/assets/f3a5c25e-1f86-4f4e-bcfb-4568c8eaf82b)" width="100%">
+  <img alt="Projeto Alura Plus" ![Alura-plus-capa](https://github.com/user-attachments/assets/f3a5c25e-1f86-4f4e-bcfb-4568c8eaf82b)" width="100%">
 </p>
 
 ## 🚀 Tecnologias
