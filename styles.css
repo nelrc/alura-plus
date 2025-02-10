@@ -23,7 +23,8 @@ body {
 .principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover; 
+    background-position: center center; 
     align-items: center;
     text-align: center;
 }
@@ -296,5 +297,21 @@ body {
 
     .rodape__texto {
         font-size: 10px;
+    }
+    
+    
+}
+
+@media (max-width: 768px) {
+    .principal {
+        background-size: cover; 
+        background-position: center center; 
+    }
+}
+
+@media (max-width: 480px) {
+    .principal {
+        background-size: cover; 
+        background-position: center center; 
     }
 }
