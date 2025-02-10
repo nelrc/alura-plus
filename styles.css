@@ -315,3 +315,58 @@ body {
         background-position: center center; 
     }
 }
+
+@media (orientation: landscape) {
+    .container {
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    .container__caixa {
+        margin: 0 3em;
+    }
+
+    .container__titulo {
+        font-size: 32px; 
+    }
+
+    .container__imagem {
+        width: 60%; 
+    }
+
+    .secundario__imagem {
+        width: 70%; 
+    }
+
+    .secundario {
+        margin: 0 8em;
+    }
+
+    .descricao__titulo {
+        font-size: 42px; 
+    }
+
+    .dispositivos__titulo {
+        font-size: 40px;
+    }
+
+    .dispositivos__lista {
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+
+    .lista__item {
+        font-size: 28px;
+    }
+
+    .rodape__lista {
+        flex-direction: row; 
+    }
+
+    .lista__link {
+        margin-left: 2em;
+    }
+
+    .rodape__texto {
+        font-size: 14px;
+    }
+}
